@@ -1,0 +1,13 @@
+modules:
+  jira:issuePanel:
+    - key: annmol-forge-hello-world-panel
+      function: main
+      title: annmol-forge
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  runtime:
+    name: nodejs18.x
+  id: ari:cloud:ecosystem::app/0c1372da-190c-48ab-a6b9-ee3b5e5a2952
