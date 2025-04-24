@@ -9,6 +9,14 @@ const issues = [
     key: 'Shyam sharma',
     status: 'To Do',
   },
+ {
+    key: 'Ram sharma',
+    status: 'In Progress',
+  },
+  {
+    key: 'Shyam sharma',
+    status: 'To Do',
+  },
 ];
 
 const App = () => (
